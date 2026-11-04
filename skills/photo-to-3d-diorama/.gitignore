@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+runtime.local.json
+.env
+.env.*
+weights/
+packages/
+*.safetensors
+*.pt
+*.pth
+*.ply
+*.splat
+*.blend
+*.glb
+*.zip

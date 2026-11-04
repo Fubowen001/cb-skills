@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "skills": [
+    {
+      "name": "photo-to-3d-diorama",
+      "path": "skills/photo-to-3d-diorama/SKILL.md",
+      "description": "Generate complete reusable 3D diorama scenes from uploaded photos or artwork, preserving source elements with selectable styles and multi-angle inspection. Use for photo-to-3D assets rather than a static image gallery."
+    }
+  ]
+}

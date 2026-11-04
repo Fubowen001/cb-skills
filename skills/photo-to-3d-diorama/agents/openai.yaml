@@ -1,0 +1,6 @@
+interface:
+  display_name: "照片转3D微观模型"
+  short_description: "按原图生成包含主体、地面与环境的三维微缩场景，支持批量照片与风格选择"
+  default_prompt: "使用 $photo-to-3d-diorama 将我上传的照片逐张生成可复用3D微观模型，严格保留原图元素并应用指定风格。"
+policy:
+  allow_implicit_invocation: true

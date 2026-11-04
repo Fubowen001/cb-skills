@@ -1,0 +1,31 @@
+# Local work and Python caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+work/
+outputs/
+.DS_Store
+Thumbs.db
+
+# Machine configuration and credentials
+.env
+.env.*
+!.env.example
+runtime.local.json
+*.pem
+*.p12
+
+# Photo-to-3D runtime and case assets stay outside skill source
+skills/photo-to-3d-diorama/**/inputs/
+skills/photo-to-3d-diorama/**/weights/
+skills/photo-to-3d-diorama/**/runtime/
+skills/photo-to-3d-diorama/**/cache/
+skills/photo-to-3d-diorama/**/*.ply
+skills/photo-to-3d-diorama/**/*.splat
+skills/photo-to-3d-diorama/**/*.blend
+skills/photo-to-3d-diorama/**/*.blend1
+skills/photo-to-3d-diorama/**/*.glb
+skills/photo-to-3d-diorama/**/*.mp4
+skills/photo-to-3d-diorama/**/job.json
+skills/photo-to-3d-diorama/**/batch.json
