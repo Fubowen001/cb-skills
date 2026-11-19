@@ -1,0 +1,25 @@
+{
+  "language": "chinese",
+  "seed": 227,
+  "temperature": 0.66,
+  "top_p": 0.88,
+  "candidates": 1,
+  "roles": {
+    "student": {
+      "mode": "custom",
+      "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-4bit",
+      "speaker": "Vivian",
+      "direction": "清亮自然，带着孩子发现新鲜事的高兴；认真思考，句尾有自然起伏。"
+    },
+    "teacher": {
+      "mode": "custom",
+      "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-4bit",
+      "speaker": "Serena",
+      "direction": "亲切温柔的老师，像面对面讲故事，含笑，有呼吸和轻重。"
+    }
+  },
+  "lines": [
+    {"id": "student-01", "role": "student", "text": "我明白了，原来春天已经来到我们身边啦！", "delivery": "先恍然大悟，再露出真心的喜悦。"},
+    {"id": "teacher-01", "role": "teacher", "text": "说得真好。把你的发现，也讲给身边的人听吧。", "delivery": "温和地肯定，再带着期待邀请。"}
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "有情感的角色配音"
+  short_description: "自定义角色音色，生成自然有情绪的对白与朗诵，固定参考声音并在作品中试听验收"
+  default_prompt: "使用 $expressive-voice，按我定义的音色和角色生成有情感的配音，先给我一段带上下文的试听。"
+policy:
+  allow_implicit_invocation: true

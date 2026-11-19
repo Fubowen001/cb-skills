@@ -7,6 +7,7 @@
 | Skill | 用途 | 入口 |
 |---|---|---|
 | photo-to-3d-diorama | 根据照片或原画制作完整 3D 微观场景；支持风格参考、分部制作和证据化验收 | [技能说明](skills/photo-to-3d-diorama/SKILL.md) |
+| expressive-voice | 自定义音色与情绪，复用学生、教师、朗诵配音流程，固定角色参考并进行上下文试听 | [技能说明](skills/expressive-voice/SKILL.md) |
 
 [机器可读目录](catalog.json)由管理脚本生成。
 
@@ -44,3 +45,8 @@ docs/                       仓库级管理说明
 ## 当前技能的能力边界
 
 photo-to-3d-diorama 包含本机 TripoSplat 高斯生成、分部与细节工具和验收流程。可编辑网格、骨骼或碰撞需要实际制作，保存为 Blender 文件不自动获得这些能力。流程测试通过不代表任意照片都能达到严格视觉还原。第三方预览库许可保留在技能内的 `assets/LICENSE.txt`。
+
+
+## 角色配音
+
+安装 `skills/expressive-voice` 后，可发送“使用 $expressive-voice，设计一个温和低沉的男声，先试一句，再固定音色生成对白”。[本地运行说明](skills/expressive-voice/references/runtime.md)说明依赖与模型准备；[声音预设](skills/expressive-voice/references/presets.md)记录《元日》学生配音的实际来源。参考录音与生成音频保存在各自项目中。

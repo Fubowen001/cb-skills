@@ -2,6 +2,11 @@
   "schema": 1,
   "skills": [
     {
+      "name": "expressive-voice",
+      "path": "skills/expressive-voice/SKILL.md",
+      "description": "Create expressive, character-consistent speech with user-defined voices, performance directions and reusable reference audio. Use for narration, animated dialogue, lessons and poetry, including adapting the Yuanri student voice workflow to new roles."
+    },
+    {
       "name": "photo-to-3d-diorama",
       "path": "skills/photo-to-3d-diorama/SKILL.md",
       "description": "Generate complete reusable 3D diorama scenes from uploaded photos or artwork, preserving source elements with selectable styles and multi-angle inspection. Use for photo-to-3D assets rather than a static image gallery."
