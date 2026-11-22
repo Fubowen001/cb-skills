@@ -7,6 +7,11 @@
       "description": "Create expressive, character-consistent speech with user-defined voices, performance directions and reusable reference audio. Use for narration, animated dialogue, lessons and poetry, including adapting the Yuanri student voice workflow to new roles."
     },
     {
+      "name": "microcourse-studio",
+      "path": "skills/microcourse-studio/SKILL.md",
+      "description": "从选题、风格、主题与字体出发，分阶段设计、制作和修订跨学科浏览器微课，管理内容和分镜审批、低成本动画试片、成片验收及剪映可编辑交付。用于新建整课或从现有版本续作。"
+    },
+    {
       "name": "photo-to-3d-diorama",
       "path": "skills/photo-to-3d-diorama/SKILL.md",
       "description": "Generate complete reusable 3D diorama scenes from uploaded photos or artwork, preserving source elements with selectable styles and multi-angle inspection. Use for photo-to-3D assets rather than a static image gallery."

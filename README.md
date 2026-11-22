@@ -8,6 +8,7 @@
 |---|---|---|
 | photo-to-3d-diorama | 根据照片或原画制作完整 3D 微观场景；支持风格参考、分部制作和证据化验收 | [技能说明](skills/photo-to-3d-diorama/SKILL.md) |
 | expressive-voice | 自定义音色与情绪，复用学生、教师、朗诵配音流程，固定角色参考并进行上下文试听 | [技能说明](skills/expressive-voice/SKILL.md) |
+| microcourse-studio | 跨学科微课分阶段制作、付费动画试片与剪映可编辑交付 | [技能说明](skills/microcourse-studio/SKILL.md) |
 
 [机器可读目录](catalog.json)由管理脚本生成。
 

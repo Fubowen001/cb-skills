@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "brief": {"subject":"数学","audience":"小学三年级","topic":"认识二分之一","theme":"分享一张纸","style":"平面剪纸","fonts":{"title":"黑体","body":"宋体","caption":"楷体"},"objective":"从等分与非等分的两个图中找出二分之一并说明理由"},
+  "duration_frames":10800, "fps":60, "width":1920, "height":1080,
+  "bundles":{}, "approvals":{}, "shots":[], "open_issues":[], "batch":null
+}
